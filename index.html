@@ -132,7 +132,7 @@
     //http://twitter.com/intent/tweet?text={페이지 제목}&url={페이지링크}
     //https://share.naver.com/web/shareView.nhn?url={페이지링크}&title={페이지 제목}
     //https://plus.google.com/share?url={페이지링크}&t={페이지 제목}
-        $(".Faceboo  k").click(function(e){
+        $(".Facebook").click(function(e){
             e.preventDefault();
             window.open('https://www.facebook.com/sharer/sharer.php?u=' +encodeURIComponent(document.URL)+'&t='+encodeURIComponent(document.title), 'facebooksharedialog', 'menubar=no, toolbar=no, resizable=yes, scrollbars=yes, height=300, width=600'); 
         });
