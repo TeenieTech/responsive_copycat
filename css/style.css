@@ -79,7 +79,10 @@
 .nav > div {float: left; width: 40%;}
 .nav > div:last-child {width: 20%;}
 .nav > div ol {overflow: hidden;}
-.nav > div li {float: left; width: 50%; position: relative; padding:0 8px; box-sizing: border-box;}
+.nav > div li {float: left; width: 50%; position: relative; padding:0 8px; box-sizing: border-box; transition: box-shadow 0.3s ;}
+.nav > div li:hover {
+	box-shadow: inset 0px -4px 0px rgba(32, 70, 88, 0.8);
+}
 .nav > div li:before {
 	content: ''; 
 	width: 3px; height: 3px;
